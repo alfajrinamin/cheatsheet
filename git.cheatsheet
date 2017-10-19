@@ -1,0 +1,6 @@
+Yup, you should not do that (pushing a commit, then changing it and trying to push it again) :
+
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be an amendmend"
+git push origin master

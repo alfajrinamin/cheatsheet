@@ -1,0 +1,20 @@
+GANTI KATA : 
+:%s/foo/bar
+
+INDENT : 
+>> 
+<< 
+gg=G
+
+SCROLL : 
+ctrl+u 	# scroll up (half screen)
+ctrl+d  # scroll down (half screen)
+ctrl+y 	# scroll up (move viewport down 1 line)
+ctrl+e  # scroll down (move viewport up 1 line) 
+
+JUMP : 
+[number]j # 12j 12 jump down 
+[number]k # 12k 12 jump up 
+
+
+ 
