@@ -1,5 +1,12 @@
 GANTI KATA : 
-:%s/foo/bar
+:%s/foo/bar/gc # all foo replate to bar but need confirmation 
+:s/foo/bar/g   # inline replace foo to bar 
+atau 
+put cursor on "foo"
+press * to select for all "foo" 
+type "ciw" (change inner word) then "bar" then escape 
+pres n (next) then . to repeat change
+
 
 INDENT : 
 >> 
